@@ -35,5 +35,6 @@ download.file(paste0("https://themoviedb.org", img[1]), destfile = "moviestarwar
 session("https://www.themoviedb.org/movie/137106-the-lego-movie?language=nl-NL") %>% 
   session_jump_to(img[1])
 
-print(score)
+
+
 
