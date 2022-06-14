@@ -17,6 +17,12 @@ omschrijving <-
 
 omschrijving
 
+release <- 
+  movie %>%
+  html_node(".release") %>%
+  html_text()
+release
+
 img <-
   movie %>% 
   html_nodes(".image_content img") %>% 
